@@ -1,0 +1,21 @@
+<DOCTYPE! html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css" />
+<title>Personal Website</title>
+</head>
+<body>
+<header>
+<h1>Jackson Betz Personal Website<h1>
+<nav>
+</nav>
+</header>
+<main>
+<h3>About me</h3>
+<p>I am a young professional seeking a career in IT. This website functions both to promote myself as a candidate for future employment and also as a medium of putting into practice what I have learned.
+</p>
+</main>
+</body>
+</html>
