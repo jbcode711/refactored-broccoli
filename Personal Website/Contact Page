@@ -1,0 +1,67 @@
+<DOCTYPE! html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Personal Website/styles.css">
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="headerText">Jackson Betz Personal Website<h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Personal Website/About Page">
+                        About                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Personal Website/Portfolio Page">
+                        Portfolio                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Personal Website/Contact Page.html">
+                        Contact                    
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <div>Contact Information</div>
+                <p>
+                My contact information is listed below. If you are unable to get in touch, or would like me to contact you, please complete the form below and I will contact you as soon as I am able.
+                </p>
+                <!--Icons with anchor tag hyperlinks will go here and username/number next to them for ux-->
+            </section>
+            <section>
+                <form id="contactForm">
+                    <!--Need to write javascript that alerts when required fields not completed-->
+                    <label>First Name</label><br>
+                    <input type="text" id="firstName">
+                    <div></div>
+                    <label>Last Name</label><br>
+                    <input type="text" id="lasttName" required>
+                    <div></div>
+                    <label>Last Name</label><br>
+                    <input type="text" id="lasttName" required>
+                    <div></div>
+                    <label>E-mail Address</label><br>
+                    <input type="email" id="lasttName" required>
+                    <div></div>
+                    <label>Phone Number (optional)</label><br>
+                    <input type="number" id="lasttName" max="10">
+                    <div></div>
+                    <label>Additional comments (optional)</label>
+                    <textarea>
+                    <div></div>
+                    <input type="submit" value="Submit">
+                </form> 
+            </section>   
+        </main>
+    </body>
+</html>
+    

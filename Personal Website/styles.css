@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+    border: 2px solid black;
+    display: flex;
+    font-family: Tahoma, sans-serif, serif;
+}
+:root {
+    --blue:  rgb(45, 68, 226);
+    --grey:  rgb(221, 220, 220);
+    --blue2: rgb(120, 167, 246);
+}
+header {
+    position: absolute;
+    top: 0;
+}
+/* add a keyframes animation for personal website title/logo */
+nav {
+    position: relative;
+    bottom: 0;
+    width: auto;
+}
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#contactForm {
+    background: linear-gradient(0% var(--blue), 50% var(--blue), 50% var(--blue2), 100% var(--grey));
+}

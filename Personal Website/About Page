@@ -1,0 +1,47 @@
+<DOCTYPE! html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="Personal Website/styles.css">
+        <title>Personal Website</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="headerText">Jackson Betz Personal Website<h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="Personal Website/About Page">
+                        About                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Personal Website/Portfolio Page">
+                        Portfolio                    
+                        </a>
+                    </li>
+                    <li>
+                        <a href="Personal Website/Contact Page.html">
+                        Contact                    
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section id="aboutMe">
+                <div>About me</div>
+                <p>
+                I am a young professional seeking a career in IT. This website functions both to promote myself as a candidate for future employment and also as a medium of putting into practice what I have learned.
+                 </p> 
+            </section>
+            <section id="photos">
+                    <div>Photo gallery</div>
+                    <img>
+                    <img>
+                    <img> 
+            </section>
+        </main>
+    </body>
+</html>
