@@ -10,14 +10,13 @@
     --blue2: rgb(120, 167, 246);
 }
 header {
-    position: absolute;
+    position: fixed;
     top: 0;
+    display: inline;
 }
 /* add a keyframes animation for personal website title/logo */
 nav {
-    position: relative;
-    bottom: 0;
-    width: auto;
+    position: absolute;
 }
 ul {
     list-style-type: none;
