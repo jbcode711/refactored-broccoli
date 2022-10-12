@@ -1,29 +1,60 @@
 * {
     box-sizing: border-box;
-    border: 2px solid black;
     display: flex;
     font-family: Tahoma, sans-serif, serif;
 }
 :root {
     --blue:  rgb(45, 68, 226);
-    --grey:  rgb(221, 220, 220);
+    --grey:  rgba(136, 136, 136);
     --blue2: rgb(120, 167, 246);
 }
 header {
     position: fixed;
     top: 0;
-    display: inline;
+    left: 0;
+    background: url("https://images.pexels.com/photos/1421264/pexels-photo-1421264.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+    background-repeat: no-repeat;
+    background-position: top -50px right 0;
+    width: 100vw;
+    height: 10%;
+}
+#headerDiv {
+    padding-left: 25px;
+    position: absolute;
+    bottom: 0;
+
+}
+#headerText {
+    color: black;
+    font-size: 23px;
+    font-weight: bold;
 }
 /* add a keyframes animation for personal website title/logo */
 nav {
     position: absolute;
+    margin: 0px 0px 0px 0px;
+    padding: 0px;
+    right: 0;
+    bottom: 0px;
+    height: fit-content;
 }
 ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+li {
+    padding: 3px 5px 3px 5px;
+    border: 1px solid black;
 }
 a {
     text-decoration: none;
     color: black;
+    font-weight: bold;
+}
+main {
+    position: relative;
+    top: 10%;
 }
 #contactForm {
     background: linear-gradient(0% var(--blue), 50% var(--blue), 50% var(--blue2), 100% var(--grey));
