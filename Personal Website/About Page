@@ -3,31 +3,39 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="Personal Website/styles.css">
+        <link rel="stylesheet" href="styles.css">
         <title>Personal Website</title>
     </head>
     <body>
         <header>
-            <h1 id="headerText">Jackson Betz Personal Website<h1>
-            <nav>
-                <ul>
-                    <li>
-                        <a href="Personal Website/About Page">
-                        About                    
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Personal Website/Portfolio Page">
-                        Portfolio                    
-                        </a>
-                    </li>
-                    <li>
-                        <a href="Personal Website/Contact Page.html">
-                        Contact                    
-                        </a>
-                    </li>
-                </ul>
-            </nav>
+            <div id="headerDiv">
+                <h3 id="headerText">
+                Jackson Betz Personal Website
+                </h3>
+            </div>
+            <div>
+            </div>
+            <div id="navDiv">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="Personal Website/About Page">
+                            About
+                            </a>                       
+                        </li>    
+                        <li>
+                            <a href="Personal Website/Portfolio Page">
+                            Portfolio                    
+                            </a>
+                        </li>
+                        <li>
+                            <a href="Personal Website/Contact Page.html">
+                            Contact                    
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </header>
         <main>
             <section id="aboutMe">
@@ -43,5 +51,5 @@
                     <img> 
             </section>
         </main>
-    </body>
-</html>
+    </body>   
+</html>        
